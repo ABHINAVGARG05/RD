@@ -496,7 +496,7 @@ function DisplayRoommateCard() {
                               <div className="card-preference">
                                 <div className="card-rank">
                                   <div className="card-preference-title">
-                                    Rank
+                                    CGPA
                                   </div>
                                   <div className="card-preference-content">
                                     {post?.rank}
@@ -705,7 +705,7 @@ function DisplayRoommateCard() {
                             <div className="card-preference">
                               <div className="card-rank">
                                 <div className="card-preference-title">
-                                  Rank
+                                  CGPA
                                 </div>
                                 <div className="card-preference-content">
                                   {post?.rank}
