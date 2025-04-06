@@ -308,7 +308,7 @@ export const NeedRoomComponent = () => {
     const numericRegex = /^[0-9]+$/;
     const indianNumberRegex = /^[6789]\d{9}$/;
     if (!needRoomForm["rank"]) {
-      toast.error("Plase enter your rank");
+      toast.error("Plase enter your CGPA");
       return false;
     } else if (
       !needRoomForm["bedType"] ||
@@ -339,12 +339,12 @@ export const NeedRoomComponent = () => {
     if (needRoomForm["rank"]) {
       let isRankValid = numericRegex.test(needRoomForm["rank"]);
       if (!isRankValid) {
-        toast.error("Please enter a valid rank");
+        toast.error("Please enter a valid CGPA");
         return false;
       }
       let isRankAbove5 = needRoomForm["rank"].length > 5 ? true : false;
       if (isRankAbove5) {
-        toast.error("Please enter a valid rank");
+        toast.error("Please enter a valid CGPA");
         return false;
       }
     } else if (needRoomForm["bedType"]) {
@@ -378,7 +378,7 @@ export const NeedRoomComponent = () => {
     const indianNumberRegex = /^[6789]\d{9}$/;
 
     if (!needRoomMateForm["rank"]) {
-      toast.error("Please enter your rank");
+      toast.error("Please enter your CGPA");
       return false;
     } else if (
       !needRoomMateForm["noOfBeds"] ||
@@ -406,13 +406,13 @@ export const NeedRoomComponent = () => {
     if (needRoomMateForm["rank"]) {
       let isRankValid = numericRegex.test(needRoomMateForm["rank"]);
       if (!isRankValid) {
-        toast.error("Please enter a valid rank");
+        toast.error("Please enter a valid CGPA");
         return false;
       }
 
       let isRankAbove5 = needRoomMateForm["rank"].length > 5 ? true : false;
       if (isRankAbove5) {
-        toast.error("Please enter a valid rank");
+        toast.error("Please enter a valid CGPA");
         return false;
       }
     } else if (needRoomMateForm["noOfBeds"]) {
@@ -534,7 +534,7 @@ export const NeedRoomComponent = () => {
                 className="grid grid-cols-1 items-center"
               >
                 <div className="flex flex-col mb-6 md:mr-4">
-                  <span>Your Rank *</span>
+                  <span>Your CGPA *</span>
                   <input
                     name="rank"
                     value={needRoomForm["rank"]}
@@ -675,7 +675,7 @@ export const NeedRoomComponent = () => {
                 className="grid grid-cols-1 items-center"
               >
                 <div className="flex flex-col mb-6">
-                  <span>Your Rank *</span>
+                  <span>Your CGPA *</span>
                   <input
                     name="rank"
                     value={needRoomMateForm["rank"]}
