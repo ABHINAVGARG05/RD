@@ -267,10 +267,13 @@ const Profilepage = () => {
         mobile: contactNumber,
         // currentUserAdminStatus: false,
       };
+      console.log("bfwi;woie",profileData)
+      console.log("VBI;WEvnv;o",updatedData)
+      console.log("bwfeiULF;VRE",profileData?.user?._id)
 
       axios
         .put(
-          `${process.env.REACT_APP_SERVER_URL}/user/${profileData?.user?._id}`,
+          `${process.env.REACT_APP_SERVER_URL}/user/${profileData?.id || profileData?.user?._id}`,
           updatedData
         )
         .then((response) => {

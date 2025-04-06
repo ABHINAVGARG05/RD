@@ -28,7 +28,9 @@ function DisplayRoommateCard() {
     setPage(1);
     setResetPaginationKey((prevKey) => prevKey + 1);
   };
+  console.log(secureLocalStorage.getItem("profile"))
   const profileData = JSON.parse(secureLocalStorage.getItem("profile"));
+  console.log("d1:-",profileData)
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(true);
 
@@ -270,6 +272,7 @@ function DisplayRoommateCard() {
 
   async function likeRoommate(otherUserId) {
     try {
+      console.log("hi")
       const usersResponse = await axios.get(
         `${process.env.REACT_APP_SERVER_URL}/roommate/all`
       );

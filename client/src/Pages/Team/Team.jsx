@@ -328,6 +328,64 @@ const Team = () => {
                 </div>
               </div>
             </div>
+            
+
+            <div className="eachdevs">
+              <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[18rem] rounded-xl bg-clip-border">
+                <div class=" bg-sky-500  text-blue-700 bg-white w-[15rem] h-[11rem] rounded-t-xl bg-clip-border">
+                  <img
+                    class="w-full h-full object-cover"
+                    src="https://res.cloudinary.com/abhi-server/image/upload/v1743930247/Screenshot_2025-04-06_143344_pocqpl.png"
+                    alt="ABHINAV GARG"
+                  />
+                </div>
+                <div class="p-2 text-center w-[15rem] h-[7rem]">
+                  <h4 class="block  mb-1 Inter-Semi-Bold text-m font-[600] leading-snug tracking-normal text-[#282828]">
+                    ABHINAV GARG{" "}
+                  </h4>
+                  <p class="pb-1 mb-1 block Inter-Regular text-s leading-relaxed  text-[#3E3E59] ">
+                    Backend Developer
+                  </p>
+
+                  <div class="flex justify-center  gap-4">
+                    {/* <a
+                      href="https://www.facebook.com/profile.php?id=100068947241423"
+                      target="_blank"
+                      class="block font-sans text-xl antialiased font-normal leading-relaxed justify-center items-center"
+                    >
+                      <img
+                        src="./image/fbicon.png"
+                        alt="Facebook"
+                        style={{ height: "32px", width: "32px" }}
+                      />
+                    </a> */}
+                    <a
+                      href="https://www.linkedin.com/in/abhinav-garg-75798028a/"
+                      target="_blank"
+                      class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-gradient-to-tr from-purple-600 to-purple-400 bg-clip-text"
+                    >
+                      <img
+                        src="./image/inicon.png"
+                        alt="LinkedIn"
+                        style={{ height: "32px", width: "32px" }}
+                      />
+                    </a>
+                    {/* <a
+                      href="https://www.twitter.com/sdeysocial/"
+                      target="_blank"
+                      class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-gradient-to-tr from-purple-600 to-purple-400 bg-clip-text"
+                    >
+                      <img
+                        src="./image/xicon.png"
+                        alt="Twitter"
+                        style={{ height: "32px", width: "32px" }}
+                      />
+                    </a> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="eachdevs">
               <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[18rem] rounded-xl bg-clip-border">
                 <div class=" bg-sky-500  text-blue-700 bg-white w-[15rem] h-[11rem] rounded-t-xl bg-clip-border">
