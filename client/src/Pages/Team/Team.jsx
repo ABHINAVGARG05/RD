@@ -105,7 +105,7 @@ const Team = () => {
         <div className="leads">
           <div className="leadslist">
             <div className="eachleads">
-              <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[18rem] rounded-xl bg-clip-border">
+              <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[20rem] rounded-xl bg-clip-border">
                 <div class=" bg-sky-500  text-blue-700 bg-white w-[15rem] h-[11rem] rounded-t-xl bg-clip-border">
                   <img
                     class="w-[15rem] h-[11.1rem]  rounded-t-xl "
@@ -175,7 +175,7 @@ const Team = () => {
               </div>
             </div>
             <div className="eachleads">
-              <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[18rem] rounded-xl bg-clip-border">
+              <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[20rem] rounded-xl bg-clip-border">
                 <div class=" bg-sky-500  text-blue-700 bg-white w-[15rem] h-[11rem] rounded-t-xl bg-clip-border">
                   <img
                     class=" h-[11.1rem] w-[15rem]  rounded-t-xl "
@@ -257,29 +257,29 @@ const Team = () => {
         </div>
         <div className="devs">
           <div className="devlist">
-            <div className="eachdevs">
-              <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[18rem] rounded-xl bg-clip-border">
-                <div class=" bg-sky-500  text-blue-700 bg-white w-[15rem] h-[11rem] rounded-t-xl bg-clip-border">
+            {/* <div className="eachdevs"> */}
+              {/* <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[18rem] rounded-xl bg-clip-border"> */}
+                {/* <div class=" bg-sky-500  text-blue-700 bg-white w-[15rem] h-[11rem] rounded-t-xl bg-clip-border">
                   <img
                     class="w-full h-full object-cover"
                     src="https://subhodeepdey.com/images/dp.png"
                     alt="Subhodeep Dey"
                   />
-                </div>
-                <div class="p-2 text-center w-[15rem] h-[7rem]">
-                  <h4 class="block  mb-1 Inter-Semi-Bold text-m font-[600] leading-snug tracking-normal text-[#282828]">
+                </div> */}
+                {/* <div class="p-2 text-center w-[15rem] h-[7rem]"> */}
+                  {/* <h4 class="block  mb-1 Inter-Semi-Bold text-m font-[600] leading-snug tracking-normal text-[#282828]">
                     Subhodeep Dey{" "}
                     <a href="https://subhodeepdey.com/" target="_blank">
                       <small>
                         <i class="fas fa-external-link-alt"></i>
                       </small>
                     </a>
-                  </h4>
-                  <p class="pb-1 mb-1 block Inter-Regular text-s leading-relaxed  text-[#3E3E59] ">
+                  </h4> */}
+                  {/* <p class="pb-1 mb-1 block Inter-Regular text-s leading-relaxed  text-[#3E3E59] ">
                     Backend Developer
-                  </p>
+                  </p> */}
 
-                  <div class="flex justify-center  gap-4">
+                  {/* <div class="flex justify-center  gap-4"> */}
                     {/* <a
                       href="https://www.facebook.com/profile.php?id=100068947241423"
                       target="_blank"
@@ -291,28 +291,28 @@ const Team = () => {
                         style={{ height: "32px", width: "32px" }}
                       />
                     </a> */}
-                    <a
+                    {/* <a
                       href="https://www.instagram.com/sdeysocial/"
                       target="_blank"
                       class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-gradient-to-tr from-light-blue-600 to-light-blue-400 bg-clip-text"
-                    >
-                      <img
+                    > */}
+                      {/* <img
                         src="./image/instaicon.png"
                         alt="Instagram"
                         style={{ height: "32px", width: "32px" }}
                       />
-                    </a>
-                    <a
+                    </a> */}
+                    {/* <a
                       href="https://www.linkedin.com/in/subhodeep-dey/"
                       target="_blank"
                       class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-gradient-to-tr from-purple-600 to-purple-400 bg-clip-text"
-                    >
-                      <img
+                    > */}
+                      {/* <img
                         src="./image/inicon.png"
                         alt="LinkedIn"
                         style={{ height: "32px", width: "32px" }}
                       />
-                    </a>
+                    </a> */}
                     {/* <a
                       href="https://www.twitter.com/sdeysocial/"
                       target="_blank"
@@ -324,10 +324,10 @@ const Team = () => {
                         style={{ height: "32px", width: "32px" }}
                       />
                     </a> */}
-                  </div>
-                </div>
-              </div>
-            </div>
+                  {/* </div> */}
+                {/* </div> */}
+              {/* </div> */}
+            {/* </div> */}
             
 
             <div className="eachdevs">
@@ -395,7 +395,7 @@ const Team = () => {
                     alt=""
                   />
                 </div>
-                <div class="p-2 text-center w-[15rem] h-[7rem]">
+                <div class="p-2 text-center w-[15rem] h-[10rem]">
                   <h4 class="block  mb-1 Inter-Semi-Bold text-m font-[600] leading-snug tracking-normal text-[#282828]">
                     Harshit P G{" "}
                     <a
@@ -458,7 +458,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="eachdevs">
+            {/* <div className="eachdevs">
               <div class="flex flex-col items-center text-gray-700 bg-white shadow-md w-[15rem] h-[18rem] rounded-xl bg-clip-border">
                 <div class=" bg-sky-500  text-blue-700 bg-white w-[15rem] h-[11rem] rounded-t-xl bg-clip-border">
                   <img
@@ -467,8 +467,8 @@ const Team = () => {
                     alt=""
                   />
                 </div>
-                <div class="p-2 text-center w-[15rem] h-[7rem]">
-                  <h4 class="block  mb-1 Inter-Semi-Bold text-m font-[600] leading-snug tracking-normal text-[#282828]">
+                <div class="p-2 text-center w-[15rem] h-[7rem]"> */}
+                  {/* <h4 class="block  mb-1 Inter-Semi-Bold text-m font-[600] leading-snug tracking-normal text-[#282828]">
                     Nitish Kumar{" "}
                       <a
                         target="_blank"
@@ -478,12 +478,12 @@ const Team = () => {
                           <i class="fas fa-external-link-alt"></i>
                         </small>
                       </a>
-                  </h4>
-                  <p class="pb-2 mb-1 block Inter-Regular text-s leading-relaxed  text-[#3E3E59] ">
+                  </h4> */}
+                  {/* <p class="pb-2 mb-1 block Inter-Regular text-s leading-relaxed  text-[#3E3E59] ">
                     Frontend Devloper
-                  </p>
+                  </p> */}
 
-                  <div class="flex justify-center   gap-4">
+                  {/* <div class="flex justify-center   gap-4"> */}
                     {/* <a
                       href="#facebook"
                       class="block font-sans text-xl antialiased font-normal leading-relaxed justify-center items-center"
@@ -494,7 +494,7 @@ const Team = () => {
                         style={{ height: "32px", width: "32px" }}
                       />
                     </a> */}
-                    <a
+                    {/* <a
                       href="https://instagram.com/_nitish_kumar48?igshid=MTNiYzNiMzkwZA=="
                       class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-gradient-to-tr from-light-blue-600 to-light-blue-400 bg-clip-text"
                     >
@@ -503,8 +503,8 @@ const Team = () => {
                         alt=""
                         style={{ height: "32px", width: "32px" }}
                       />
-                    </a>
-                    <a
+                    </a> */}
+                    {/* <a
                       href="https://www.linkedin.com/in/nitish445/"
                       class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-gradient-to-tr from-purple-600 to-purple-400 bg-clip-text"
                     >
@@ -513,7 +513,7 @@ const Team = () => {
                         alt=""
                         style={{ height: "32px", width: "32px" }}
                       />
-                    </a>
+                    </a> */}
                     {/* <a
                       href="#instagram"
                       class="block font-sans text-xl antialiased font-normal leading-relaxed text-transparent bg-gradient-to-tr from-purple-600 to-purple-400 bg-clip-text"
@@ -524,10 +524,10 @@ const Team = () => {
                         style={{ height: "32px", width: "32px" }}
                       />
                     </a> */}
-                  </div>
-                </div>
-              </div>
-            </div>
+                  {/* </div> */}
+                {/* </div> */}
+              {/* </div> */}
+            {/* </div> */}
           </div>
         </div>
       </div>
