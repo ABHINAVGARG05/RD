@@ -9,7 +9,6 @@ const postSchema = mongoose.Schema(
     },
     rank: {
       type: Number,
-      required: true,
       min: 1,
       max: 99999,
     },

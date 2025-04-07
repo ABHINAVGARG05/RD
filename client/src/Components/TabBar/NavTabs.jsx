@@ -123,7 +123,7 @@ function DisplayRoommateCard() {
       "T",
       "All",
     ];
-    const womenHostels = ["A", "B", "C", "D", "E", "F", "G", "H", "All"];
+    const womenHostels = ["A", "B", "C", "D", "E", "F", "G", "H", "J","All"];
     if (userGender === "F") {
       return womenHostels;
     } else {
