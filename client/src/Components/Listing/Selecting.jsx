@@ -238,7 +238,7 @@ export const Listing = () => {
                           </div>
                           <div className="card-preference">
                             <div className="card-rank">
-                              <div className="card-preference-title">Rank</div>
+                              <div className="card-preference-title">CGPA</div>
                               <div className="card-preference-content">
                                 {" "}
                                 {item.rank}
@@ -332,7 +332,7 @@ export const Listing = () => {
                         <div className="card-info">
                           <div className="card-informatios">
                             <div className="card-name">
-                            Rank: {item?.rank ?? ""} | {item?.preferredBlock ?? "Loading "} Block
+                            {item?.preferredBlock ?? "Loading "} Block
                             </div>
                             <div className="card-add">
                               <img
@@ -344,7 +344,7 @@ export const Listing = () => {
                           </div>
                           <div className="card-preference">
                             <div className="card-rank">
-                              <div className="card-preference-title">Rank</div>
+                              <div className="card-preference-title">CGPA</div>
                               <div className="card-preference-content">
                                 {item.rank}
                               </div>

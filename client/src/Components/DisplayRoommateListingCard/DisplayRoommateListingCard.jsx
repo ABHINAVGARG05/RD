@@ -94,7 +94,7 @@ function DisplayRoommateListingCard() {
                   </div>
                   <div className="card-preference">
                     <div className="card-rank">
-                      <div className="card-preference-title">Rank</div>
+                      <div className="card-preference-title">CGPA</div>
                       <div className="card-preference-content">
                         {roommate?.rank}
                       </div>
