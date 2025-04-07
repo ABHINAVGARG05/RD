@@ -306,6 +306,7 @@ export const NeedRoomComponent = () => {
 
   function validateNeedRoomForm() {
     const numericRegex = /^[0-9]+$/;
+    const cgpaRegex = /^(10(?:\.0+)?|[0-9](?:\.\d+)?)$/;
     const indianNumberRegex = /^[6789]\d{9}$/;
     if (!needRoomForm["rank"]) {
       toast.error("Plase enter your CGPA");
@@ -337,7 +338,7 @@ export const NeedRoomComponent = () => {
     }
 
     if (needRoomForm["rank"]) {
-      let isRankValid = numericRegex.test(needRoomForm["rank"]);
+      let isRankValid = cgpaRegex.test(needRoomForm["rank"]);
       if (!isRankValid) {
         toast.error("Please enter a valid CGPA");
         return false;
@@ -376,6 +377,7 @@ export const NeedRoomComponent = () => {
   function validateNeedRoomMateForm() {
     const numericRegex = /^[0-9]+$/;
     const indianNumberRegex = /^[6789]\d{9}$/;
+    const cgpaRegex = /^(10(?:\.0+)?|[0-9](?:\.\d+)?)$/;
 
     if (!needRoomMateForm["rank"]) {
       toast.error("Please enter your CGPA");
@@ -404,7 +406,7 @@ export const NeedRoomComponent = () => {
     }
 
     if (needRoomMateForm["rank"]) {
-      let isRankValid = numericRegex.test(needRoomMateForm["rank"]);
+      let isRankValid = cgpaRegex.test(needRoomMateForm["rank"]);
       if (!isRankValid) {
         toast.error("Please enter a valid CGPA");
         return false;
