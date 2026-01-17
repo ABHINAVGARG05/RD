@@ -80,7 +80,7 @@ async function createMailTransporter() {
             service: "gmail", // no need to set host or port etc.
             // port: 587,
             auth: {
-                user: "roommate.dhoondho@gmail.com",
+                user: "abhichhrp@gmail.com",
                 pass: process.env.GMAIL_APP_PASS,
             },
         });
